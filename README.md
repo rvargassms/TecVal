@@ -17,20 +17,28 @@ _________
 
 Windows
 - Press Windows+R to open “Run” box. Type **“cmd**” and then click “OK” to open a regular Command Prompt.
-- Go to project location, for example:
+
+Example:
 
 > cd C:\Users\User\Downloads\TecVal-master\src\tecval
+> 
 > javac SeekAndDeleteChar.java
+> 
 > cd ..
+> 
 > java tecval.SeekAndDeleteChar C:\Users\User\Downloads\ file-name-register.txt
-
+---------
 Linux
-- Open a terminal window
-- Go to project location: for example:
+- Open a terminal window, Ctrl+Alt+T
+
+Example:
 
 > cd /home/user/project/RemoveChars/src/tecval
+> 
 > javac SeekAndDeleteChar.java
+> 
 > cd ..
+> 
 > java tecval.SeekAndDeleteChar /home/user/downloads file-name-register.txt
 _________
 
