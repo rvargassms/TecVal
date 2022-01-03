@@ -7,7 +7,7 @@ Este script requiere 2 argumentos:
 |FilePath| FileName |
 |--|--|
 |Ubicacion del archivo .txt  |  Nombre del archivo .txt|
-|C:\\user\\Documents\\|test-register.txt|
+|C:\\user\\Documents\\ | test-register.txt|
 
 Ejemplo:
 FilePath + FileName = **C:\\user\\Documents\\** **test-register.txt**
