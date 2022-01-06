@@ -45,10 +45,11 @@ public class SeekAndDeleteChar {
 			}catch(Exception e){ 
 	            System.err.printf("No se encontro archivo");
 	        }
-			
-				FileWriter writer = new FileWriter("/home/rvargas/Documentos/outPutFile.txt");//edit your output file
+				String fileNameOut = "depured-"+fileNameIn;
+				
+				FileWriter writer = new FileWriter(filePathIn + fileNameOut);//output file
 				writer.write(editedContent);
-					
+
 				writer.close();
 		}else {
 			System.out.println("Please provide pathfile and filename");
